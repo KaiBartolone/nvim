@@ -1,0 +1,7 @@
+require("plugins/comment")
+require("plugins/colors")
+require("plugins/treesitter")
+require("plugins/telescope")
+require("plugins/harpoon")
+-- require("plugins/lsp")
+require("plugins/mason")

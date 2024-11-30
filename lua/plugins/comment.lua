@@ -15,7 +15,7 @@ require('Comment').setup({
     ---LHS of operator-pending mappings in NORMAL and VISUAL mode
     opleader = {
         ---Line-comment keymap
-        line = '"',
+        line = 'gc',
         ---Block-comment keymap
         block = 'gb',
     },
@@ -41,6 +41,3 @@ require('Comment').setup({
     ---Function to call after (un)comment
     post_hook = nil,
 })
-
-local ft = require('Comment.ft')
-ft({'verilog', 'systemverilog'}, ft.get('c'))

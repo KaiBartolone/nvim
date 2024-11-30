@@ -26,5 +26,3 @@ vim.opt.updatetime = 50
 -- --vim.opt.colorcolumn = "80"
 -- 
 -- vim.opt.paste = true
-vim.opt.clipboard = unnamed
-vim.g.netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
